@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 public class Cleaningmaid implements ModInitializer {
     private final Logger logger = Logger.getLogger("CleaningMaid");
     List<ItemEntity> list = new ArrayList<>();
-    File file = new File("mods/CleaningMaid/config/config.txt");
+    File file = new File("config/CleaningMaid/config.txt");
     List<String> contents = new ArrayList<>();
 
     @Override
